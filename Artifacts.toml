@@ -1,31 +1,31 @@
 [[default]]
 arch = "aarch64"
-git-tree-sha1 = "2408e559d450a63fd63169175865025f70ad5c3e"
+git-tree-sha1 = "80cfe9ad05bfdc9a5985a653ffcafe523523e274"
 libc = "glibc"
 os = "linux"
 
     [[default.download]]
-    sha256 = "a18f1c34f664399f8790d0ac9fe267f43afcfd2eb1a501738fa6e3caaa86583f"
+    sha256 = "b4e7165d8075d148486a4ab9aa144a862a9b7a9dda1a97b42f9b8f5050bbc750"
     url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.0/Ncurses-v1.0.0-aarch64-linux-gnu.tar.gz"
 
 [[default-build_log]]
 arch = "aarch64"
-git-tree-sha1 = "8a3a55127edc25dd621dd093b74f5975aa75f431"
+git-tree-sha1 = "900e3d222e090980c162ad426b1cc836365f6edb"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[default-build_log.download]]
-    sha256 = "b51882dd2830ed9a824aec22bb647fff9c07fce8dd407d04a9cee5b7856d2b8d"
+    sha256 = "3aec9a9a45eb0b164b1bd94dd8bcc8bd105a563913ab8a04031f1da6c3f59ec8"
     url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.0/Ncurses-build_log-v1.0.0-aarch64-linux-gnu.tar.gz"
 
 [[default-extract_log]]
 arch = "aarch64"
-git-tree-sha1 = "b2a13388f9b1790a133da6682d3388110574ba36"
+git-tree-sha1 = "feb9041ffd3441156d9480ffc6e236503544bf75"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[default-extract_log.download]]
-    sha256 = "aeb260a46a033c6280246d1d57481f6ae3332e6416d39ac066429e428a3206ac"
+    sha256 = "9eda4f680b3327dd38237db7abca143a134cfa2b72e24b4b32ced1856f99d0aa"
     url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.0/Ncurses-extract_log-v1.0.0-aarch64-linux-gnu.tar.gz"
