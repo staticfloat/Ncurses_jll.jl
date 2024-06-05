@@ -1,0 +1,67 @@
+name = "Ncurses"
+version = "1.0.0"
+julia_compat = "1.7"
+platform_augmentation_code = ""
+
+[[builds]]
+deps = []
+name = "default"
+lazy = "false"
+src_version = "6.4.0"
+platform = "aarch64-linux-gnu"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:b13f7701b69f8ca4fce69fcd3e702663169324ae"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:e6123ff46526b68fec5bb97bc78fc8ef752edcb32e85f1c904d8c23c639157f3"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.0/Ncurses-build_log-v1.0.0-aarch64-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:b2a13388f9b1790a133da6682d3388110574ba36"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:97b57726a431e36f653259eb8c35447b50f7191269004676197b1cb942397073"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.0/Ncurses-extract_log-v1.0.0-aarch64-linux-gnu.tar.gz"
+
+    [[builds.products]]
+    deps = ["libncurses"]
+    name = "libform"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libformw.so.6"
+    type = "library"
+    path = "lib/libformw.so.6.4"
+    [[builds.products]]
+    deps = ["libncurses"]
+    name = "libmenu"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libmenuw.so.6"
+    type = "library"
+    path = "lib/libmenuw.so.6.4"
+    [[builds.products]]
+    deps = []
+    name = "libncurses"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libncursesw.so.6"
+    type = "library"
+    path = "lib/libncursesw.so.6.4"
+    [[builds.products]]
+    deps = ["libncurses"]
+    name = "libpanel"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libpanelw.so.6"
+    type = "library"
+    path = "lib/libpanelw.so.6.4"
+
+    [[builds.sources]]
+    treehash = "sha1:dcdda1cd733512a0f52c7b01f16e344e2bb41e2a"
+    url = "https://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.4.tar.gz"
+
+    [builds.artifact]
+    treehash = "sha1:479d19e03f894e9a6c2a2611d2298e9c9e8dc687"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:4053c02649595d34121a38fb204fe2528a083108e24a00e74a03b87a6b5d0090"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.0/Ncurses-v1.0.0-aarch64-linux-gnu.tar.gz"
