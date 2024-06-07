@@ -1,31 +1,31 @@
-[[default]]
+[[Ncurses]]
 arch = "aarch64"
-git-tree-sha1 = "163246fb094541435e51384ff2477aafe06d4d80"
+git-tree-sha1 = "baa68ef9a67b35dc73d5aba4bda83d7f0b9767ef"
 libc = "glibc"
 os = "linux"
 
-    [[default.download]]
-    sha256 = "b731a54e88c51d5fd717bef7928494e4b738f6fe4c203ca1c6c3c10efa5e9481"
-    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.0/Ncurses-v1.0.0-aarch64-linux-gnu.tar.gz"
+    [[Ncurses.download]]
+    sha256 = "dcd08ee61ec21d85271dc9e86e8f2b85531c450f9c75ab1bc072bb2fdcb6ffca"
+    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.0-bb2_tests/Ncurses-v1.0.0-aarch64-linux-gnu.tar.gz"
 
-[[default-build_log]]
+[[Ncurses-build_log]]
 arch = "aarch64"
-git-tree-sha1 = "a6149c82ababb9d1f20d29c2d142f499f8fb55e4"
+git-tree-sha1 = "67b8ce7509d1e8d0cfe29f6aa5f3eb9d1dc35521"
 lazy = true
 libc = "glibc"
 os = "linux"
 
-    [[default-build_log.download]]
-    sha256 = "3586bd175502b109bc156029b9cdb5de889492c4f9eabf4ad9d3ac8c741d5517"
-    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.0/Ncurses-build_log-v1.0.0-aarch64-linux-gnu.tar.gz"
+    [[Ncurses-build_log.download]]
+    sha256 = "0a3a19b05bd42684af2b98bab18de983127e3439fb7e195666b59e0a09e10f34"
+    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.0-bb2_tests/Ncurses-build_log-v1.0.0-aarch64-linux-gnu.tar.gz"
 
-[[default-extract_log]]
+[[Ncurses-extract_log]]
 arch = "aarch64"
-git-tree-sha1 = "fe5891da15682dad026c4ffaae5bc8b41f0b3162"
+git-tree-sha1 = "feb9041ffd3441156d9480ffc6e236503544bf75"
 lazy = true
 libc = "glibc"
 os = "linux"
 
-    [[default-extract_log.download]]
-    sha256 = "9b2f7005a94f75d05f22b065f6afcdda49cce5e7642907dfa5aa5e457a62d9ac"
-    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.0/Ncurses-extract_log-v1.0.0-aarch64-linux-gnu.tar.gz"
+    [[Ncurses-extract_log.download]]
+    sha256 = "5b335517235aee4d2d8ccab1a684350f5edd7f31bc01c24e1f3c577d1b1a2d95"
+    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.0-bb2_tests/Ncurses-extract_log-v1.0.0-aarch64-linux-gnu.tar.gz"
