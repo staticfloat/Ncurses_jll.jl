@@ -1,31 +1,31 @@
 [[Ncurses]]
-arch = "aarch64"
-git-tree-sha1 = "4e25cfee8819cb5fd523688c517f003c0365a4b1"
+arch = "x86_64"
+git-tree-sha1 = "b69296b621ff8c04984f6ba4026eb94237a771ea"
 libc = "glibc"
 os = "linux"
 
     [[Ncurses.download]]
-    sha256 = "7b695ad5cbd1ae5e8441045da874dbd06bd5ff3846f28523bea5ad165fe4c34d"
-    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.0/Ncurses-v1.0.0-aarch64-linux-gnu.tar.gz"
+    sha256 = "2b76626197e8872989a4fa0f3361aef93c8e4d37d65d746c54d3571c204bafe5"
+    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.9-GCCBoostrap/Ncurses-v1.0.9-x86_64-linux-gnu.tar.gz"
 
 [[Ncurses-build_log]]
-arch = "aarch64"
-git-tree-sha1 = "1270fa0beb903c2e72e13ea40a5b54a9893c7576"
+arch = "x86_64"
+git-tree-sha1 = "e66c67ddd24999b4c990a106d6bd60ee138a4f1b"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Ncurses-build_log.download]]
-    sha256 = "b1b7f17f58c63715dd8cc78e344cb3401a27aa26d4b5473aa44b1b98444c9895"
-    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.0/Ncurses-build_log-v1.0.0-aarch64-linux-gnu.tar.gz"
+    sha256 = "661da5dd5f8fa4b108a82c4ada12e8257bc01bf33577247f27a956715b1f4454"
+    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.9-GCCBoostrap/Ncurses-build_log-v1.0.9-x86_64-linux-gnu.tar.gz"
 
 [[Ncurses-extract_log]]
-arch = "aarch64"
-git-tree-sha1 = "feb9041ffd3441156d9480ffc6e236503544bf75"
+arch = "x86_64"
+git-tree-sha1 = "b99aaa3ef5b6480e97cbc7a93917233cbc6faea5"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Ncurses-extract_log.download]]
-    sha256 = "8861d7e23134964ca22f27bca6abf90ac5461575cb5d926d74511271a2cb5323"
-    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.0/Ncurses-extract_log-v1.0.0-aarch64-linux-gnu.tar.gz"
+    sha256 = "8593520a210965ad34691adb944b76aae268cfaf612948b6b6be40a3e99f2185"
+    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.9-GCCBoostrap/Ncurses-extract_log-v1.0.9-x86_64-linux-gnu.tar.gz"
