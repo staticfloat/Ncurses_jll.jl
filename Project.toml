@@ -1,6 +1,6 @@
 name = "Ncurses_jll"
 uuid = "68e3532b-a499-55ff-9963-d1c0c0748b3a"
-version = "1.0.0"
+version = "1.0.16"
 
 [deps]
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"

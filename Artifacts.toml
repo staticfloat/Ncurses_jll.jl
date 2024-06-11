@@ -1,31 +1,31 @@
 [[Ncurses]]
-arch = "aarch64"
-git-tree-sha1 = "4e25cfee8819cb5fd523688c517f003c0365a4b1"
+arch = "x86_64"
+git-tree-sha1 = "0e8408f7634e0c9c410f2a4867ee4b0ea112d29b"
 libc = "glibc"
 os = "linux"
 
     [[Ncurses.download]]
-    sha256 = "7b695ad5cbd1ae5e8441045da874dbd06bd5ff3846f28523bea5ad165fe4c34d"
-    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.0/Ncurses-v1.0.0-aarch64-linux-gnu.tar.gz"
+    sha256 = "3848ff2957158142a08332afc93534890099830b3187a9deadfcb58e8bc3f531"
+    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.16-GCCBoostrap/Ncurses-v1.0.16-x86_64-linux-gnu.tar.gz"
 
 [[Ncurses-build_log]]
-arch = "aarch64"
-git-tree-sha1 = "1270fa0beb903c2e72e13ea40a5b54a9893c7576"
+arch = "x86_64"
+git-tree-sha1 = "05baa96b53573b5c59125d493a8fa5fea5f78b78"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Ncurses-build_log.download]]
-    sha256 = "b1b7f17f58c63715dd8cc78e344cb3401a27aa26d4b5473aa44b1b98444c9895"
-    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.0/Ncurses-build_log-v1.0.0-aarch64-linux-gnu.tar.gz"
+    sha256 = "2af6b10b55bea73499d36ba37fcb7a7547c511c51535f28279621b8dc86aae13"
+    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.16-GCCBoostrap/Ncurses-build_log-v1.0.16-x86_64-linux-gnu.tar.gz"
 
 [[Ncurses-extract_log]]
-arch = "aarch64"
-git-tree-sha1 = "feb9041ffd3441156d9480ffc6e236503544bf75"
+arch = "x86_64"
+git-tree-sha1 = "a5d14d621dd536bb01f3069d5f2c70b1ff80397f"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Ncurses-extract_log.download]]
-    sha256 = "8861d7e23134964ca22f27bca6abf90ac5461575cb5d926d74511271a2cb5323"
-    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.0/Ncurses-extract_log-v1.0.0-aarch64-linux-gnu.tar.gz"
+    sha256 = "a13070683845ffd84b74c569f5a76b9612f65a6c198354d1156993af0d9401b9"
+    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.16-GCCBoostrap/Ncurses-extract_log-v1.0.16-x86_64-linux-gnu.tar.gz"
