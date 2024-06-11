@@ -1,31 +1,31 @@
 [[Ncurses]]
-arch = "aarch64"
-git-tree-sha1 = "4e25cfee8819cb5fd523688c517f003c0365a4b1"
+arch = "x86_64"
+git-tree-sha1 = "10d2affaee7da0ead2f0f9934c78172cac09fcfa"
 libc = "glibc"
 os = "linux"
 
     [[Ncurses.download]]
-    sha256 = "7b695ad5cbd1ae5e8441045da874dbd06bd5ff3846f28523bea5ad165fe4c34d"
-    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.0/Ncurses-v1.0.0-aarch64-linux-gnu.tar.gz"
+    sha256 = "6e57a4d40815c0fe4fcdb1e6f9bb1f5d2b027283e71727535b08e4d81a1ea3f1"
+    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.15-GCCBoostrap/Ncurses-v1.0.15-x86_64-linux-gnu.tar.gz"
 
 [[Ncurses-build_log]]
-arch = "aarch64"
-git-tree-sha1 = "1270fa0beb903c2e72e13ea40a5b54a9893c7576"
+arch = "x86_64"
+git-tree-sha1 = "39bc3bf6e363c97aff6db5074cd5dd639761dd3d"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Ncurses-build_log.download]]
-    sha256 = "b1b7f17f58c63715dd8cc78e344cb3401a27aa26d4b5473aa44b1b98444c9895"
-    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.0/Ncurses-build_log-v1.0.0-aarch64-linux-gnu.tar.gz"
+    sha256 = "150ad6698223da57cf09d3198b75e3caceaae9a1cff396cd8adfbcbe93fea2ee"
+    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.15-GCCBoostrap/Ncurses-build_log-v1.0.15-x86_64-linux-gnu.tar.gz"
 
 [[Ncurses-extract_log]]
-arch = "aarch64"
-git-tree-sha1 = "feb9041ffd3441156d9480ffc6e236503544bf75"
+arch = "x86_64"
+git-tree-sha1 = "7c658e670e1fe4785d71daf1f443c3f68ccc6c15"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Ncurses-extract_log.download]]
-    sha256 = "8861d7e23134964ca22f27bca6abf90ac5461575cb5d926d74511271a2cb5323"
-    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.0/Ncurses-extract_log-v1.0.0-aarch64-linux-gnu.tar.gz"
+    sha256 = "2972b9831d6535f2ddcb30eb61534588aa2b309842f82a847191db332ac14a82"
+    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.15-GCCBoostrap/Ncurses-extract_log-v1.0.15-x86_64-linux-gnu.tar.gz"
