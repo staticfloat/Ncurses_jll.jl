@@ -1,5 +1,5 @@
 name = "Ncurses"
-version = "1.0.0"
+version = "1.0.13"
 julia_compat = "1.7"
 platform_augmentation_code = ""
 
@@ -8,23 +8,23 @@ deps = []
 name = "Ncurses"
 lazy = "false"
 src_version = "6.4.0"
-platform = "aarch64-linux-gnu"
+platform = "x86_64-linux-gnu"
 
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:1270fa0beb903c2e72e13ea40a5b54a9893c7576"
+    treehash = "sha1:cca6d154b85cbce05d2dd06ca05ee7f32dffa89a"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:b1b7f17f58c63715dd8cc78e344cb3401a27aa26d4b5473aa44b1b98444c9895"
-        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.0/Ncurses-build_log-v1.0.0-aarch64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:8d3c5cc65a7a95e5d67fe10903929953fa6880692a4f6dba432ebab322ab4169"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.13-GCCBoostrap/Ncurses-build_log-v1.0.13-x86_64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:feb9041ffd3441156d9480ffc6e236503544bf75"
+    treehash = "sha1:7abb362b616aa6ae730a5d6a25b337bc0f931155"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:8861d7e23134964ca22f27bca6abf90ac5461575cb5d926d74511271a2cb5323"
-        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.0/Ncurses-extract_log-v1.0.0-aarch64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:1a456f4d45612e180554fffcb0da5a188d6be2ed6ce7a159d771cdc6336ae973"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.13-GCCBoostrap/Ncurses-extract_log-v1.0.13-x86_64-linux-gnu.tar.gz"
 
     [[builds.products]]
     deps = ["libncurses"]
@@ -35,11 +35,11 @@ platform = "aarch64-linux-gnu"
     path = "lib/libformw.so.6.4"
     [[builds.products]]
     deps = ["libncurses"]
-    name = "libmenu"
+    name = "libpanel"
     flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
-    soname = "libmenuw.so.6"
+    soname = "libpanelw.so.6"
     type = "library"
-    path = "lib/libmenuw.so.6.4"
+    path = "lib/libpanelw.so.6.4"
     [[builds.products]]
     deps = []
     name = "libncurses"
@@ -49,19 +49,19 @@ platform = "aarch64-linux-gnu"
     path = "lib/libncursesw.so.6.4"
     [[builds.products]]
     deps = ["libncurses"]
-    name = "libpanel"
+    name = "libmenu"
     flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
-    soname = "libpanelw.so.6"
+    soname = "libmenuw.so.6"
     type = "library"
-    path = "lib/libpanelw.so.6.4"
+    path = "lib/libmenuw.so.6.4"
 
     [[builds.sources]]
     treehash = "sha1:dcdda1cd733512a0f52c7b01f16e344e2bb41e2a"
     url = "https://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.4.tar.gz"
 
     [builds.artifact]
-    treehash = "sha1:4e25cfee8819cb5fd523688c517f003c0365a4b1"
+    treehash = "sha1:ed2e79a8b25a5860bb71848842b164f2f46caddb"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:7b695ad5cbd1ae5e8441045da874dbd06bd5ff3846f28523bea5ad165fe4c34d"
-        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.0/Ncurses-v1.0.0-aarch64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:89f6b40c486d33117b014031b54e25ceab2b7afdb865120f761acd2983ce0a35"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.13-GCCBoostrap/Ncurses-v1.0.13-x86_64-linux-gnu.tar.gz"
