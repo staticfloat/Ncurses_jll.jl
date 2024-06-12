@@ -1,31 +1,31 @@
 [[Ncurses]]
-arch = "aarch64"
-git-tree-sha1 = "4e25cfee8819cb5fd523688c517f003c0365a4b1"
+arch = "x86_64"
+git-tree-sha1 = "797d1169e1db03a079d25066bd20fb9928bb4cf2"
 libc = "glibc"
 os = "linux"
 
     [[Ncurses.download]]
-    sha256 = "7b695ad5cbd1ae5e8441045da874dbd06bd5ff3846f28523bea5ad165fe4c34d"
-    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.0/Ncurses-v1.0.0-aarch64-linux-gnu.tar.gz"
+    sha256 = "7fa7a714a429fe78adfccaabd40fbd7757afa22e330c6b274e4934cd70be7c3c"
+    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.1-GCCBoostrap-x86_64-linux-gnu/Ncurses-v1.0.1-x86_64-linux-gnu.tar.gz"
 
 [[Ncurses-build_log]]
-arch = "aarch64"
-git-tree-sha1 = "1270fa0beb903c2e72e13ea40a5b54a9893c7576"
+arch = "x86_64"
+git-tree-sha1 = "34410b4a588f9890a4b80c627c88aa18f0d65a65"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Ncurses-build_log.download]]
-    sha256 = "b1b7f17f58c63715dd8cc78e344cb3401a27aa26d4b5473aa44b1b98444c9895"
-    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.0/Ncurses-build_log-v1.0.0-aarch64-linux-gnu.tar.gz"
+    sha256 = "5c113baf0296061512c63abb9dbc7069118c050421ff1e0c8a777da3dfc77366"
+    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.1-GCCBoostrap-x86_64-linux-gnu/Ncurses-build_log-v1.0.1-x86_64-linux-gnu.tar.gz"
 
 [[Ncurses-extract_log]]
-arch = "aarch64"
-git-tree-sha1 = "feb9041ffd3441156d9480ffc6e236503544bf75"
+arch = "x86_64"
+git-tree-sha1 = "1944ccc11161b7c9de092acd5e685e72822f5034"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Ncurses-extract_log.download]]
-    sha256 = "8861d7e23134964ca22f27bca6abf90ac5461575cb5d926d74511271a2cb5323"
-    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.0/Ncurses-extract_log-v1.0.0-aarch64-linux-gnu.tar.gz"
+    sha256 = "f93ab48f398235de68f83185a7e8d5b1aab99053ef1f2a3ecd722c0c9ad9f0df"
+    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v1.0.1-GCCBoostrap-x86_64-linux-gnu/Ncurses-extract_log-v1.0.1-x86_64-linux-gnu.tar.gz"
