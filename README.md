@@ -12,7 +12,7 @@ The binaries for `Ncurses` have been built from upstream sources version v6.4.0:
 
 `Ncurses` is available for the following platforms:
 
- - `Linux aarch64 {libc=glibc}`
+ - `Linux x86_64 {libc=glibc}`
 # Dependencies
 The following JLL packages are required by `Ncurses`:
 
