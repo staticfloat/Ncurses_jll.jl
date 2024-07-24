@@ -13,18 +13,18 @@ platform = "x86_64-linux-gnu"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:800045a8756b32ab962bd27eca99f828b9bd66eb"
+    treehash = "sha1:22e4666d6217edce63c5e497499c9ad618ecba50"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:8970e0edf45973b4aa378846a5534a98272c9b18160abbf7ac10fd879ac5320e"
-        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2/Ncurses-build_log-v6.4.2-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:27cc54a22c167c3fd0d273ddeb93aa6dd7fec721d35dc50ee1e2de761c8e307a"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCCBootstrap/Ncurses-build_log-v6.4.2-x86_64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:14b153be58d6651e5445752da4c1ebc8d205b2eb"
+    treehash = "sha1:7d905071573fe2263e67d21513b8dd9ce7fb3fef"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:982a92fa709beb2998eda4c41384f2cd140033e3eea093108f5c91e16302a412"
-        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2/Ncurses-extract_log-v6.4.2-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:6b7f964aac3aaf8b153aa5542e7711be0caa1d270bdf0ac4450286d6414302c8"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCCBootstrap/Ncurses-extract_log-v6.4.2-x86_64-linux-gnu.tar.gz"
 
     [[builds.products]]
     deps = ["libncurses"]
@@ -60,8 +60,256 @@ platform = "x86_64-linux-gnu"
     url = "https://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.4.tar.gz"
 
     [builds.artifact]
-    treehash = "sha1:ec99e53d7f68c9f9fea5c2b9435cb0bbb48658f3"
+    treehash = "sha1:6f7ceaf3c92916400da4051ee3c91ad01dce0ff3"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:26d90fb15a0b5a68557f7928593bb6d34da703e6122152f695811caedfd57595"
-        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2/Ncurses-v6.4.2-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:799ea23a263ef409e96e23f29e7996d18897d4c70408eac206eae06b9212a294"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCCBootstrap/Ncurses-v6.4.2-x86_64-linux-gnu.tar.gz"
+[[builds]]
+deps = []
+name = "Ncurses"
+lazy = "false"
+src_version = "6.4.0"
+platform = "i686-linux-gnu"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:4d1912c8f82724762a11fd8373c33b2f9eb62cca"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:49806f941c8420a7796684c743b36d6d5152cb61378822973c6ef9c33a52db6e"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCCBootstrap/Ncurses-build_log-v6.4.2-i686-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:487e0876b80c1285218ecb2f8c993553b61149b5"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:dc20ee952748a52fcf4b9d3be13bfa42fd8613396f591d90dcec9db47ca9e568"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCCBootstrap/Ncurses-extract_log-v6.4.2-i686-linux-gnu.tar.gz"
+
+    [[builds.products]]
+    deps = ["libncurses"]
+    name = "libform"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libformw.so.6"
+    type = "library"
+    path = "lib/libformw.so.6.4"
+    [[builds.products]]
+    deps = ["libncurses"]
+    name = "libpanel"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libpanelw.so.6"
+    type = "library"
+    path = "lib/libpanelw.so.6.4"
+    [[builds.products]]
+    deps = []
+    name = "libncurses"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libncursesw.so.6"
+    type = "library"
+    path = "lib/libncursesw.so.6.4"
+    [[builds.products]]
+    deps = ["libncurses"]
+    name = "libmenu"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libmenuw.so.6"
+    type = "library"
+    path = "lib/libmenuw.so.6.4"
+
+    [[builds.sources]]
+    treehash = "sha1:dcdda1cd733512a0f52c7b01f16e344e2bb41e2a"
+    url = "https://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.4.tar.gz"
+
+    [builds.artifact]
+    treehash = "sha1:285e525e5ce80ec2a94a928d02a364ed87a74041"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:8a231609f2cb0d7fabdc2469b59afd349f88ddee87314aad3046f271195b3bcb"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCCBootstrap/Ncurses-v6.4.2-i686-linux-gnu.tar.gz"
+[[builds]]
+deps = []
+name = "Ncurses"
+lazy = "false"
+src_version = "6.4.0"
+platform = "aarch64-linux-gnu"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:f572247070cd8ec10b3ab25f29d3b7965ff3d9b6"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:a3c327b6071ed6923c3f264ad6481eb7543de3b6b1cb04ebe8ecbcd0132d1782"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCCBootstrap/Ncurses-build_log-v6.4.2-aarch64-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:de8ffa0d503a7c6333cb0e4a86bc14053510bce9"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:c4daffea233f4d9c37210a240ecc2e53374dfe1a3bd284dfb5aeb7bc750ec76d"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCCBootstrap/Ncurses-extract_log-v6.4.2-aarch64-linux-gnu.tar.gz"
+
+    [[builds.products]]
+    deps = ["libncurses"]
+    name = "libform"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libformw.so.6"
+    type = "library"
+    path = "lib/libformw.so.6.4"
+    [[builds.products]]
+    deps = ["libncurses"]
+    name = "libpanel"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libpanelw.so.6"
+    type = "library"
+    path = "lib/libpanelw.so.6.4"
+    [[builds.products]]
+    deps = []
+    name = "libncurses"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libncursesw.so.6"
+    type = "library"
+    path = "lib/libncursesw.so.6.4"
+    [[builds.products]]
+    deps = ["libncurses"]
+    name = "libmenu"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libmenuw.so.6"
+    type = "library"
+    path = "lib/libmenuw.so.6.4"
+
+    [[builds.sources]]
+    treehash = "sha1:dcdda1cd733512a0f52c7b01f16e344e2bb41e2a"
+    url = "https://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.4.tar.gz"
+
+    [builds.artifact]
+    treehash = "sha1:aceeae202912c616bb831dc875a8d3138bf18118"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:38935d7152d5c0750718f17cd6116f7248d70850b973f4059062ffdb351fbe05"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCCBootstrap/Ncurses-v6.4.2-aarch64-linux-gnu.tar.gz"
+[[builds]]
+deps = []
+name = "Ncurses"
+lazy = "false"
+src_version = "6.4.0"
+platform = "armv7l-linux-gnueabihf"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:f1f5523414c174de3e62ac49bf9ec7b540fd5964"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:aca664229d111b2af0f92fa8879465f529b9a07e91471568c3aa7fed2169a921"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCCBootstrap/Ncurses-build_log-v6.4.2-armv7l-linux-gnueabihf.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:d7a20e72f032b038d0e95cebff6ea796b219e2c9"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:deff42fed1472773133d242bc51f6b1d85cbda28961bd4cd657250882c537e81"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCCBootstrap/Ncurses-extract_log-v6.4.2-armv7l-linux-gnueabihf.tar.gz"
+
+    [[builds.products]]
+    deps = ["libncurses"]
+    name = "libform"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libformw.so.6"
+    type = "library"
+    path = "lib/libformw.so.6.4"
+    [[builds.products]]
+    deps = ["libncurses"]
+    name = "libpanel"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libpanelw.so.6"
+    type = "library"
+    path = "lib/libpanelw.so.6.4"
+    [[builds.products]]
+    deps = []
+    name = "libncurses"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libncursesw.so.6"
+    type = "library"
+    path = "lib/libncursesw.so.6.4"
+    [[builds.products]]
+    deps = ["libncurses"]
+    name = "libmenu"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libmenuw.so.6"
+    type = "library"
+    path = "lib/libmenuw.so.6.4"
+
+    [[builds.sources]]
+    treehash = "sha1:dcdda1cd733512a0f52c7b01f16e344e2bb41e2a"
+    url = "https://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.4.tar.gz"
+
+    [builds.artifact]
+    treehash = "sha1:be6a908901885961d51255ad91e68ee1d1584969"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:d91ffb28d2f494314c3500ec466f20e9c3079411ad4612ae2a2f63a40db9df35"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCCBootstrap/Ncurses-v6.4.2-armv7l-linux-gnueabihf.tar.gz"
+[[builds]]
+deps = []
+name = "Ncurses"
+lazy = "false"
+src_version = "6.4.0"
+platform = "powerpc64le-linux-gnu"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:70858d04b9eb8df97838198a2647821883f4fd58"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:a1d34c8e42d2b7ea772ce706cddceeead345146afd0b7783c37adff86e80eab6"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCCBootstrap/Ncurses-build_log-v6.4.2-powerpc64le-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:1bd5d32ce790856f23f632a009760fe5d70d4db7"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:6efc3a694c7fcb7f977c21dc2ff107209ce3c9b75bf8bcec520b80f25aecbc7a"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCCBootstrap/Ncurses-extract_log-v6.4.2-powerpc64le-linux-gnu.tar.gz"
+
+    [[builds.products]]
+    deps = ["libncurses"]
+    name = "libform"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libformw.so.6"
+    type = "library"
+    path = "lib/libformw.so.6.4"
+    [[builds.products]]
+    deps = ["libncurses"]
+    name = "libpanel"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libpanelw.so.6"
+    type = "library"
+    path = "lib/libpanelw.so.6.4"
+    [[builds.products]]
+    deps = []
+    name = "libncurses"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libncursesw.so.6"
+    type = "library"
+    path = "lib/libncursesw.so.6.4"
+    [[builds.products]]
+    deps = ["libncurses"]
+    name = "libmenu"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libmenuw.so.6"
+    type = "library"
+    path = "lib/libmenuw.so.6.4"
+
+    [[builds.sources]]
+    treehash = "sha1:dcdda1cd733512a0f52c7b01f16e344e2bb41e2a"
+    url = "https://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.4.tar.gz"
+
+    [builds.artifact]
+    treehash = "sha1:12db8332e99d87aad71ff6c627521cff21c8747e"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:9195cf180dec4c785273254ba211be938c308688892f32a44a83571aa47232d4"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCCBootstrap/Ncurses-v6.4.2-powerpc64le-linux-gnu.tar.gz"
