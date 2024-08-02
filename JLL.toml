@@ -4,27 +4,31 @@ julia_compat = "1.6"
 platform_augmentation_code = ""
 
 [[builds]]
-deps = []
 name = "Ncurses"
+platform = "x86_64-linux-gnu"
+deps = []
 lazy = "false"
 src_version = "6.4.0"
-platform = "x86_64-linux-gnu"
+
+    [[builds.licenses]]
+    license_text = "Copyright 2018-2021,2022 Thomas E. Dickey\nCopyright 1998-2017,2018 Free Software Foundation, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a\ncopy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, distribute with modifications, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included\nin all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\nOR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE ABOVE COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,\nDAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR\nOTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR\nTHE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name(s) of the above copyright\nholders shall not be used in advertising or otherwise to promote the\nsale, use or other dealings in this Software without prior written\nauthorization.\n\n-- vile:txtmode fc=72\n-- $Id: COPYING,v 1.11 2022/01/01 11:47:50 tom Exp $\n"
+    filename = "COPYING"
 
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:800045a8756b32ab962bd27eca99f828b9bd66eb"
+    treehash = "sha1:ae6d3df1dd4d47772080a07a47bb760aa93c49ce"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:8970e0edf45973b4aa378846a5534a98272c9b18160abbf7ac10fd879ac5320e"
-        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2/Ncurses-build_log-v6.4.2-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:8b5d3095abebf5e6de02e16247be6817856c66d1be20a293fdb6ba21eb4615cc"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCC/Ncurses-build_log-v6.4.2-x86_64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:14b153be58d6651e5445752da4c1ebc8d205b2eb"
+    treehash = "sha1:78fe11ad41897ae79b66c7ee90c3ec1694c89c77"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:982a92fa709beb2998eda4c41384f2cd140033e3eea093108f5c91e16302a412"
-        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2/Ncurses-extract_log-v6.4.2-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:cb10a165f05beef1c60787ffc44b5caf32b70a6cb2fa2198bfeb536c8b8f429e"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCC/Ncurses-extract_log-v6.4.2-x86_64-linux-gnu.tar.gz"
 
     [[builds.products]]
     deps = ["libncurses"]
@@ -60,8 +64,272 @@ platform = "x86_64-linux-gnu"
     url = "https://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.4.tar.gz"
 
     [builds.artifact]
-    treehash = "sha1:ec99e53d7f68c9f9fea5c2b9435cb0bbb48658f3"
+    treehash = "sha1:878c086b5c47c2ae924784e33e207fd90d5afb10"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:26d90fb15a0b5a68557f7928593bb6d34da703e6122152f695811caedfd57595"
-        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2/Ncurses-v6.4.2-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:1f655231638020bbe6a070500c2dc81df79c0b4d28170c299c0db999d44ac374"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCC/Ncurses-v6.4.2-x86_64-linux-gnu.tar.gz"
+[[builds]]
+name = "Ncurses"
+platform = "i686-linux-gnu"
+deps = []
+lazy = "false"
+src_version = "6.4.0"
+
+    [[builds.licenses]]
+    license_text = "Copyright 2018-2021,2022 Thomas E. Dickey\nCopyright 1998-2017,2018 Free Software Foundation, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a\ncopy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, distribute with modifications, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included\nin all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\nOR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE ABOVE COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,\nDAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR\nOTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR\nTHE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name(s) of the above copyright\nholders shall not be used in advertising or otherwise to promote the\nsale, use or other dealings in this Software without prior written\nauthorization.\n\n-- vile:txtmode fc=72\n-- $Id: COPYING,v 1.11 2022/01/01 11:47:50 tom Exp $\n"
+    filename = "COPYING"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:06cf85db72e2743408345cf330a3b5bf2aa800a8"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:21650b7780b3ebaaf6c6dbfecf71f290a03ffc96bd3afc0b6d4ae29589641597"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCC/Ncurses-build_log-v6.4.2-i686-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:fcf45fba503da2f7c1b66a8440e0e730c2bb65ad"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:cdb7b386a21fd97f21e012bef16db9349302468702bce3a780ab2a218070ee3a"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCC/Ncurses-extract_log-v6.4.2-i686-linux-gnu.tar.gz"
+
+    [[builds.products]]
+    deps = ["libncurses"]
+    name = "libform"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libformw.so.6"
+    type = "library"
+    path = "lib/libformw.so.6.4"
+    [[builds.products]]
+    deps = ["libncurses"]
+    name = "libpanel"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libpanelw.so.6"
+    type = "library"
+    path = "lib/libpanelw.so.6.4"
+    [[builds.products]]
+    deps = []
+    name = "libncurses"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libncursesw.so.6"
+    type = "library"
+    path = "lib/libncursesw.so.6.4"
+    [[builds.products]]
+    deps = ["libncurses"]
+    name = "libmenu"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libmenuw.so.6"
+    type = "library"
+    path = "lib/libmenuw.so.6.4"
+
+    [[builds.sources]]
+    treehash = "sha1:dcdda1cd733512a0f52c7b01f16e344e2bb41e2a"
+    url = "https://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.4.tar.gz"
+
+    [builds.artifact]
+    treehash = "sha1:a5c03066d3513fb920a2fa36f378d72e1a0b3b82"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:f7a75f2f22d5b885ba2c2c0d74cb98a52121e81b534da75d4337f6a23eb8b95e"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCC/Ncurses-v6.4.2-i686-linux-gnu.tar.gz"
+[[builds]]
+name = "Ncurses"
+platform = "aarch64-linux-gnu"
+deps = []
+lazy = "false"
+src_version = "6.4.0"
+
+    [[builds.licenses]]
+    license_text = "Copyright 2018-2021,2022 Thomas E. Dickey\nCopyright 1998-2017,2018 Free Software Foundation, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a\ncopy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, distribute with modifications, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included\nin all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\nOR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE ABOVE COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,\nDAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR\nOTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR\nTHE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name(s) of the above copyright\nholders shall not be used in advertising or otherwise to promote the\nsale, use or other dealings in this Software without prior written\nauthorization.\n\n-- vile:txtmode fc=72\n-- $Id: COPYING,v 1.11 2022/01/01 11:47:50 tom Exp $\n"
+    filename = "COPYING"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:53a9124d101d1e63fcbd2c0527d7e7994b748b75"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:c085eb12367fd8d434bbf4cefdfd06ebcd9afd39692b2aee2ce59d740b6311e5"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCC/Ncurses-build_log-v6.4.2-aarch64-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:43bf5fbf088fd44e4ffa6efcdcfc1335a864b08a"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:e4d4d88c41fe08cd37b809eadae9b933aebfcd8a486d44000163c5262feac6b3"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCC/Ncurses-extract_log-v6.4.2-aarch64-linux-gnu.tar.gz"
+
+    [[builds.products]]
+    deps = ["libncurses"]
+    name = "libform"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libformw.so.6"
+    type = "library"
+    path = "lib/libformw.so.6.4"
+    [[builds.products]]
+    deps = ["libncurses"]
+    name = "libpanel"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libpanelw.so.6"
+    type = "library"
+    path = "lib/libpanelw.so.6.4"
+    [[builds.products]]
+    deps = []
+    name = "libncurses"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libncursesw.so.6"
+    type = "library"
+    path = "lib/libncursesw.so.6.4"
+    [[builds.products]]
+    deps = ["libncurses"]
+    name = "libmenu"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libmenuw.so.6"
+    type = "library"
+    path = "lib/libmenuw.so.6.4"
+
+    [[builds.sources]]
+    treehash = "sha1:dcdda1cd733512a0f52c7b01f16e344e2bb41e2a"
+    url = "https://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.4.tar.gz"
+
+    [builds.artifact]
+    treehash = "sha1:11546f8e24d870c97f4641fb950522445bb95487"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:b5dd8e70803e5385e73d99c8688c988a5f488b1a0effafa42f47815f39200a48"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCC/Ncurses-v6.4.2-aarch64-linux-gnu.tar.gz"
+[[builds]]
+name = "Ncurses"
+platform = "armv7l-linux-gnueabihf"
+deps = []
+lazy = "false"
+src_version = "6.4.0"
+
+    [[builds.licenses]]
+    license_text = "Copyright 2018-2021,2022 Thomas E. Dickey\nCopyright 1998-2017,2018 Free Software Foundation, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a\ncopy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, distribute with modifications, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included\nin all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\nOR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE ABOVE COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,\nDAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR\nOTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR\nTHE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name(s) of the above copyright\nholders shall not be used in advertising or otherwise to promote the\nsale, use or other dealings in this Software without prior written\nauthorization.\n\n-- vile:txtmode fc=72\n-- $Id: COPYING,v 1.11 2022/01/01 11:47:50 tom Exp $\n"
+    filename = "COPYING"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:2b9d5177fb0f26b93613024246a46ed247970d1c"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:11ddca0878e28379aea940bc64bfce42436b25c6276a3ea632e281cb08ca2e8a"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCC/Ncurses-build_log-v6.4.2-armv7l-linux-gnueabihf.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:48e882e78ac9ab2f16201741aa87356bdf8a3c47"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:f6e21d8bdcbae0b6e6980cbdd1578dae7c5ea76463f3768d6ebe2998f4dde6ff"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCC/Ncurses-extract_log-v6.4.2-armv7l-linux-gnueabihf.tar.gz"
+
+    [[builds.products]]
+    deps = ["libncurses"]
+    name = "libform"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libformw.so.6"
+    type = "library"
+    path = "lib/libformw.so.6.4"
+    [[builds.products]]
+    deps = ["libncurses"]
+    name = "libpanel"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libpanelw.so.6"
+    type = "library"
+    path = "lib/libpanelw.so.6.4"
+    [[builds.products]]
+    deps = []
+    name = "libncurses"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libncursesw.so.6"
+    type = "library"
+    path = "lib/libncursesw.so.6.4"
+    [[builds.products]]
+    deps = ["libncurses"]
+    name = "libmenu"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libmenuw.so.6"
+    type = "library"
+    path = "lib/libmenuw.so.6.4"
+
+    [[builds.sources]]
+    treehash = "sha1:dcdda1cd733512a0f52c7b01f16e344e2bb41e2a"
+    url = "https://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.4.tar.gz"
+
+    [builds.artifact]
+    treehash = "sha1:7f0bad2b60a975368106a29aa07b1ae89f6577f9"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:61cbfabef6f5c53dd54b57482403024e4501c6ffe61279b35b89a10d8bab97f0"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCC/Ncurses-v6.4.2-armv7l-linux-gnueabihf.tar.gz"
+[[builds]]
+name = "Ncurses"
+platform = "powerpc64le-linux-gnu"
+deps = []
+lazy = "false"
+src_version = "6.4.0"
+
+    [[builds.licenses]]
+    license_text = "Copyright 2018-2021,2022 Thomas E. Dickey\nCopyright 1998-2017,2018 Free Software Foundation, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a\ncopy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, distribute with modifications, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included\nin all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\nOR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE ABOVE COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,\nDAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR\nOTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR\nTHE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name(s) of the above copyright\nholders shall not be used in advertising or otherwise to promote the\nsale, use or other dealings in this Software without prior written\nauthorization.\n\n-- vile:txtmode fc=72\n-- $Id: COPYING,v 1.11 2022/01/01 11:47:50 tom Exp $\n"
+    filename = "COPYING"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:6635e06ae6e00ed01a2339cde43f785fc944a753"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:3a318fa8b5ea97111ea6960ae9b79fe2aa24913e67817116c6184cb2667b348c"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCC/Ncurses-build_log-v6.4.2-powerpc64le-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:2e4e8c3c716b494fa9541e0638e50e4729f5ec74"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:73e7dd2a1d8392276df13d841d9a0d40aa575a6501148c689beb778e4869e984"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCC/Ncurses-extract_log-v6.4.2-powerpc64le-linux-gnu.tar.gz"
+
+    [[builds.products]]
+    deps = ["libncurses"]
+    name = "libform"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libformw.so.6"
+    type = "library"
+    path = "lib/libformw.so.6.4"
+    [[builds.products]]
+    deps = ["libncurses"]
+    name = "libpanel"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libpanelw.so.6"
+    type = "library"
+    path = "lib/libpanelw.so.6.4"
+    [[builds.products]]
+    deps = []
+    name = "libncurses"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libncursesw.so.6"
+    type = "library"
+    path = "lib/libncursesw.so.6.4"
+    [[builds.products]]
+    deps = ["libncurses"]
+    name = "libmenu"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libmenuw.so.6"
+    type = "library"
+    path = "lib/libmenuw.so.6.4"
+
+    [[builds.sources]]
+    treehash = "sha1:dcdda1cd733512a0f52c7b01f16e344e2bb41e2a"
+    url = "https://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.4.tar.gz"
+
+    [builds.artifact]
+    treehash = "sha1:eb1b898a44c9fb4c5d6ae1eb4d1c90896612cc4e"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:3a4485a8b71b2222a3ea5aac177a696a8580e63adaec81459b42578fcde20eb0"
+        url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCC/Ncurses-v6.4.2-powerpc64le-linux-gnu.tar.gz"
