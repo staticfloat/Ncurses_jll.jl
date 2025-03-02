@@ -4,26 +4,30 @@ julia_compat = "1.6"
 platform_augmentation_code = ""
 
 [[builds]]
-deps = []
 name = "Ncurses"
+platform = "x86_64-linux-gnu"
+deps = []
 lazy = "false"
 src_version = "6.4.0"
-platform = "x86_64-linux-gnu"
+
+    [[builds.licenses]]
+    license_text = """Copyright 2018-2021,2022 Thomas E. Dickey\nCopyright 1998-2017,2018 Free Software Foundation, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a\ncopy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, distribute with modifications, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included\nin all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\nOR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE ABOVE COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,\nDAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR\nOTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR\nTHE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name(s) of the above copyright\nholders shall not be used in advertising or otherwise to promote the\nsale, use or other dealings in this Software without prior written\nauthorization.\n\n-- vile:txtmode fc=72\n-- $Id: COPYING,v 1.11 2022/01/01 11:47:50 tom Exp $\n"""
+    filename = "COPYING"
 
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:800045a8756b32ab962bd27eca99f828b9bd66eb"
+    treehash = "sha1:b01bf5db13290df7be55c3321c5d55e010b252ca"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:8970e0edf45973b4aa378846a5534a98272c9b18160abbf7ac10fd879ac5320e"
+        tarball_hash = "sha256:86ed9e4ea2f2b40af54731dce90b833a9da03a12a92969f62f3087cabb3a429d"
         url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2/Ncurses-build_log-v6.4.2-x86_64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:14b153be58d6651e5445752da4c1ebc8d205b2eb"
+    treehash = "sha1:504d23d7882e264b4951cc9dfe90bb74d43b7d96"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:982a92fa709beb2998eda4c41384f2cd140033e3eea093108f5c91e16302a412"
+        tarball_hash = "sha256:4e5bad248f98c65e499fd5ea3141922641a1b3cc9eb94740b018b33e718250a0"
         url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2/Ncurses-extract_log-v6.4.2-x86_64-linux-gnu.tar.gz"
 
     [[builds.products]]
@@ -60,8 +64,8 @@ platform = "x86_64-linux-gnu"
     url = "https://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.4.tar.gz"
 
     [builds.artifact]
-    treehash = "sha1:ec99e53d7f68c9f9fea5c2b9435cb0bbb48658f3"
+    treehash = "sha1:19638fd56d6a5520c9a91ce9a200c7b2c551a415"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:26d90fb15a0b5a68557f7928593bb6d34da703e6122152f695811caedfd57595"
+        tarball_hash = "sha256:3df122b49d6c7fd1ac8356449b529eb2608cce6252d6e31b380d091e81ccf215"
         url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2/Ncurses-v6.4.2-x86_64-linux-gnu.tar.gz"
