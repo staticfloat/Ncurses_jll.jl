@@ -17,17 +17,17 @@ src_version = "6.4.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:c6aeaaba6083a0dc4954c1bd98a4978a622e6711"
+    treehash = "sha1:c1639a9a23b78af2b087390633572a32d50a16c6"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:7cab06bfbc3c88d00fcd3344a753282a903de8ed5635671ebeec12cc57fcacb1"
+        tarball_hash = "sha256:ec92c6c7471806b05f7c9bfa8472ab5bccbaeb82841d7a6637fbad61d656394f"
         url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2/Ncurses-build_log-v6.4.2-x86_64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:94ad1ddaca6cbcfeef6a448fabd1e15d118458ac"
+    treehash = "sha1:5d0286f6b4b48da5ae370c8d2bd31c776dc0c763"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:efde036ada957908bd6123fdba9c90a47061223997bc3e5fe0c0ab2bfaeec0a8"
+        tarball_hash = "sha256:76ace46d9fa70841de207e67ca32cf6c74c80df74640f5f674e9e01cf1a043a7"
         url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2/Ncurses-extract_log-v6.4.2-x86_64-linux-gnu.tar.gz"
 
     [[builds.products]]
@@ -39,11 +39,11 @@ src_version = "6.4.0"
     path = "lib/libformw.so.6.4"
     [[builds.products]]
     deps = ["libncurses"]
-    name = "libpanel"
+    name = "libmenu"
     flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
-    soname = "libpanelw.so.6"
+    soname = "libmenuw.so.6"
     type = "library"
-    path = "lib/libpanelw.so.6.4"
+    path = "lib/libmenuw.so.6.4"
     [[builds.products]]
     deps = []
     name = "libncurses"
@@ -53,19 +53,19 @@ src_version = "6.4.0"
     path = "lib/libncursesw.so.6.4"
     [[builds.products]]
     deps = ["libncurses"]
-    name = "libmenu"
+    name = "libpanel"
     flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
-    soname = "libmenuw.so.6"
+    soname = "libpanelw.so.6"
     type = "library"
-    path = "lib/libmenuw.so.6.4"
+    path = "lib/libpanelw.so.6.4"
 
     [[builds.sources]]
     treehash = "sha1:dcdda1cd733512a0f52c7b01f16e344e2bb41e2a"
     url = "https://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.4.tar.gz"
 
     [builds.artifact]
-    treehash = "sha1:ad807af852adb24a21babd0b765257c7a8152b51"
+    treehash = "sha1:8eb11b34243d60317c934ee326c5ce80ecfbc550"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:08410a3a257fd9e2606919adbf45e229f94c3eb7bbd144c77d6f1f69151ffc99"
+        tarball_hash = "sha256:8095d112eb24a066b544f330cf005e042eecf8f590681588dc4275166b593f3f"
         url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2/Ncurses-v6.4.2-x86_64-linux-gnu.tar.gz"
