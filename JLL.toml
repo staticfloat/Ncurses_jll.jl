@@ -17,17 +17,17 @@ src_version = "6.4.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:f008e6fd0d08ffdab3b9e3e36dd5991a26c35f6e"
+    treehash = "sha1:94ee41447276194d06ffe96a8ffacde05a185a10"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:f171783e21cf9754e1b379b073f2cb1dfca80c15c597b62ac86fe09bd31a62c6"
+        tarball_hash = "sha256:1ccce8fa0093892f85aa8cca2591a00ca963a4652e1c50c7ab6c4347a13164be"
         url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2/Ncurses-build_log-v6.4.2-x86_64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:3ff80cf0408c2f380ac4201ef7009cc4ee96ea78"
+    treehash = "sha1:d4ef9f7091546244c32ce98a8c0493fb7c14430c"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:a635aed4a6a83c16940955497309846435b34e80ea0b847765f0b7bac8b8870d"
+        tarball_hash = "sha256:6d86e95f86ff425d983481ba5c9d2f27b4851af5db63cdbe518a57ac3e7cd335"
         url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2/Ncurses-extract_log-v6.4.2-x86_64-linux-gnu.tar.gz"
 
     [[builds.products]]
@@ -64,8 +64,8 @@ src_version = "6.4.0"
     url = "https://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.4.tar.gz"
 
     [builds.artifact]
-    treehash = "sha1:4e1f0ac213c63793d35c1bf3f7eb4f05fdabbf39"
+    treehash = "sha1:b91fa9947ccc68de25fefbe585ef8b38d88a4c58"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:6b06172e7c81c2d3db3156c316ac07e6d895e0d316e12bad4b0fba90bc366908"
+        tarball_hash = "sha256:7d33525d4f0280506052b063b12eb884da3811271c674eb77268f36565cd5e92"
         url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2/Ncurses-v6.4.2-x86_64-linux-gnu.tar.gz"
