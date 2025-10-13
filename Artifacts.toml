@@ -1,31 +1,31 @@
 [[Ncurses]]
 arch = "x86_64"
-git-tree-sha1 = "293ab87e99c08b58bf164895ff3910cf486ea482"
+git-tree-sha1 = "2f3ff116195f63d6ba96c1b377d5b456f6372a76"
 libc = "glibc"
 os = "linux"
 
     [[Ncurses.download]]
-    sha256 = "9692a6c989436dfed71d796c4ff4ddcf57fde3100a7e30aadbf6b31b67259ba2"
+    sha256 = "36a8270b7032f2a95b9c5058c8fe527d85eb6953e3731bdd464f20852fd5dd1a"
     url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCCBootstrap-x86_64-linux-gnu/Ncurses-v6.4.2-x86_64-linux-gnu.tar.gz"
 
 [[Ncurses-build_log]]
 arch = "x86_64"
-git-tree-sha1 = "855b83986d8a571b76f5d095ce91e1f3b557526c"
+git-tree-sha1 = "5f7689ef2dd91eae96d3ce3eedc8745e3c9b0177"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Ncurses-build_log.download]]
-    sha256 = "7f22ae1d1eb2ffe7bab482df48f079d6bdb5a8c4aca70252bcfa47dfbbf9f079"
+    sha256 = "2ed59d50ff225d302d7a311d7c10eb4ac0cdcd2a2fc1dbfd0e3096b6ddc13775"
     url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCCBootstrap-x86_64-linux-gnu/Ncurses-build_log-v6.4.2-x86_64-linux-gnu.tar.gz"
 
 [[Ncurses-extract_log]]
 arch = "x86_64"
-git-tree-sha1 = "a42c0da25c38016a00f01cdfe3b5133cca78fb5f"
+git-tree-sha1 = "c2e008284c3448640f8b28ee0b31cb542ec96d68"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Ncurses-extract_log.download]]
-    sha256 = "f1dc1c10ff809124e5081d517b5aaa2315818d43d9d4ba9d7df098e21c517078"
+    sha256 = "52aaec098e00b955be1b71db1898e1621e106112ad2bdb1dc09d83634779ea21"
     url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.2-GCCBootstrap-x86_64-linux-gnu/Ncurses-extract_log-v6.4.2-x86_64-linux-gnu.tar.gz"
