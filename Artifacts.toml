@@ -1,31 +1,31 @@
 [[Ncurses]]
 arch = "x86_64"
-git-tree-sha1 = "0275308128c3be9daeb667239adfda45126c0ba8"
+git-tree-sha1 = "f513e27db1f236a23d8cbfea87f24e62ed63d142"
 libc = "glibc"
 os = "linux"
 
     [[Ncurses.download]]
-    sha256 = "f80b8c5ece7068727fdf1d124192267a9caef32123d706f45004768567b92923"
-    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.4-GCCBootstrap-x86_64-linux-gnu/Ncurses-v6.4.4-x86_64-linux-gnu.tar.gz"
+    sha256 = "460fa00313a75094225801c36d5e16501859a4c64144680141120819d3bbb5db"
+    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.5-GCCBootstrap-x86_64-linux-gnu/Ncurses-v6.4.5-x86_64-linux-gnu.tar.gz"
 
 [[Ncurses-build_log]]
 arch = "x86_64"
-git-tree-sha1 = "e8b158da77ec948caae4ec5404533604cbf7dfe3"
+git-tree-sha1 = "b80c70b4042550b7af0973b491af93624d4eb38b"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Ncurses-build_log.download]]
-    sha256 = "73758ad5421fb0af89a9dcac5b9014430bbd1f9fbf44bb777acd707c7a31e3cf"
-    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.4-GCCBootstrap-x86_64-linux-gnu/Ncurses-build_log-v6.4.4-x86_64-linux-gnu.tar.gz"
+    sha256 = "ef31d90702bca10ebb167dc465c7848e89e5c96692666736743fb237cd2e5c9d"
+    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.5-GCCBootstrap-x86_64-linux-gnu/Ncurses-build_log-v6.4.5-x86_64-linux-gnu.tar.gz"
 
 [[Ncurses-extract_log]]
 arch = "x86_64"
-git-tree-sha1 = "b8f717b1b61e3de58d414e1afbbb46471c01e202"
+git-tree-sha1 = "af825cb0aaed8d5ab26b14b6a49925476e5ccd01"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Ncurses-extract_log.download]]
-    sha256 = "cca4997e934f2f633453feedf30d123977eb8394ca17b2a7d7e1c9b268e5d9fc"
-    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.4-GCCBootstrap-x86_64-linux-gnu/Ncurses-extract_log-v6.4.4-x86_64-linux-gnu.tar.gz"
+    sha256 = "040626feb9a8de53a0b8d05217a7f4752bc81bbf36ced12a316597214c697a3d"
+    url = "https://github.com/staticfloat/Ncurses_jll.jl/releases/download/v6.4.5-GCCBootstrap-x86_64-linux-gnu/Ncurses-extract_log-v6.4.5-x86_64-linux-gnu.tar.gz"
